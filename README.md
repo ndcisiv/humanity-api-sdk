@@ -3,6 +3,7 @@ An SDK for the Humanity v2 API
 
 ## Usage
 
+```
 $humanity = new \Ndcisiv\HumanityAPI2(
     [
         'client_id'     =>  'yourclientidgoeshere',
@@ -15,3 +16,4 @@ $humanity = new \Ndcisiv\HumanityAPI2(
 $me = $humanity->getMe();
 
 echo $me->data->name;
+```
